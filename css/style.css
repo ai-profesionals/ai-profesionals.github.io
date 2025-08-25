@@ -1,0 +1,97 @@
+body {
+margin: 0;
+font-family: 'Inter', sans-serif;
+background-color: #f7f6f5;
+color: #111111;
+line-height: 1.6;
+}
+
+
+.container {
+width: 90%;
+max-width: 1100px;
+margin: 0 auto;
+}
+
+
+h1, h2, h3 {
+color: #111111;
+margin-bottom: 15px;
+}
+
+
+p {
+color: #333;
+}
+
+
+section {
+padding: 60px 0;
+}
+
+
+.hero {
+background: #fff;
+text-align: center;
+padding: 100px 20px;
+}
+
+
+.hero h1 {
+font-size: 2.5rem;
+margin-bottom: 20px;
+}
+
+
+.btn {
+display: inline-block;
+padding: 12px 25px;
+background: #FF0066;
+color: #fff;
+text-decoration: none;
+border-radius: 25px;
+font-weight: bold;
+transition: background 0.3s;
+}
+
+
+.btn:hover {
+background: #cc0052;
+}
+
+
+.grid-2 {
+display: grid;
+grid-template-columns: 1fr 1fr;
+gap: 40px;
+}
+
+
+.grid-3 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+gap: 30px;
+}
+
+
+.beneficios {
+background: #f7f6f5;
+text-align: center;
+}
+
+
+.funciona img.workflow-img {
+max-width: 100%;
+border-radius: 10px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+
+.servicios, .casos {
+background: #fff;
+text-align: center;
+}
+
+
+.equipo .persona {
+text-align: center;
