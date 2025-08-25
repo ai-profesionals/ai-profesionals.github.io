@@ -4,55 +4,61 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Flow Eléctrico</title>
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- Hero -->
+  <header>
+    <div class="container header-flex">
+      <h2 class="logo">FLOW ELECTRICO</h2>
+      <nav>
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
   <section class="hero">
     <div class="container">
       <h1>Automatiza tu negocio sin complicaciones</h1>
-      <p>Chatbots y flujos inteligentes que responden a tus clientes y hacen tareas por ti.</p>
+      <p>Chatbots y flujos inteligentes que responden a tus clientes y hacen tareas por ti. Tú sigue trabajando en lo importante, nosotros nos encargamos del resto.</p>
       <a href="#contacto" class="btn">Quiero mi demo gratuita</a>
     </div>
   </section>
 
-  <!-- Beneficios -->
   <section class="beneficios">
     <div class="container grid-3">
       <div>
-        <h3>💬 Atención 24/7</h3>
-        <p>Un chatbot que responde siempre, incluso cuando tú no puedes.</p>
+        <h3>Atención 24/7</h3>
+        <p>Un chatbot que responde a las preguntas frecuentes de tus clientes.</p>
       </div>
       <div>
-        <h3>⚡ Ahorro de tiempo</h3>
-        <p>Automatizamos tareas repetitivas para que te centres en lo que importa.</p>
+        <h3>Ahorro de tiempo</h3>
+        <p>Automatizamos tareas repetitivas para que tu equipo se centre en lo que importa.</p>
       </div>
       <div>
-        <h3>🤝 Cercanía</h3>
-        <p>Somos dos, hablamos tu idioma y explicamos sin tecnicismos.</p>
+        <h3>Cercanía</h3>
+        <p>Somos dos personas, hablamos tu idioma y explicamos sin tecnicismos.</p>
       </div>
     </div>
   </section>
 
-  <!-- Cómo funciona -->
   <section class="funciona">
     <div class="container grid-2">
       <div>
-        <img src="img/workflow.png" alt="Workflow n8n" class="workflow-img">
-      </div>
-      <div>
         <h2>¿Cómo funciona?</h2>
         <ol>
-          <li>Tu cliente hace una pregunta.</li>
-          <li>El sistema busca la mejor respuesta.</li>
-          <li>El chatbot responde al instante.</li>
+          <li>Tu cliente hace una pregunta</li>
+          <li>El sistema busca la mejor respuesta</li>
+          <li>El chatbot responde al instante</li>
         </ol>
+      </div>
+      <div>
+        <img src="workflow.png" alt="Workflow n8n" class="workflow-img">
       </div>
     </div>
   </section>
 
-  <!-- Servicios -->
-  <section class="servicios">
+  <section id="servicios" class="servicios">
     <div class="container">
       <h2>Servicios</h2>
       <div class="grid-3">
@@ -62,70 +68,42 @@
         </div>
         <div>
           <h3>Agentes con IA</h3>
-          <p>Conversaciones naturales que resuelven tareas más complejas.</p>
+          <p>Pueden mantener conversaciones más naturales y resolver tareas más complejas.</p>
         </div>
         <div>
           <h3>Automatizaciones</h3>
-          <p>Conectamos tus herramientas para que trabajen solas (CRM, emails, hojas de cálculo).</p>
+          <p>Conectamos tus herramientas para que trabajen solas (ej. CRM, emails, hojas de cálculo).</p>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Equipo -->
   <section class="equipo">
-    <div class="container">
-      <h2>Quiénes somos</h2>
-      <div class="grid-2">
-        <div class="persona">
-          <img src="img/persona1.jpg" class="avatar" alt="Persona 1">
-          <p>Hola, soy [Nombre 1]. Me encanta simplificar procesos para que las empresas ahorren tiempo y dinero.</p>
-        </div>
-        <div class="persona">
-          <img src="img/persona2.jpg" class="avatar" alt="Persona 2">
-          <p>Soy [Nombre 2]. Me dedico a crear soluciones fáciles de usar con IA y automatización.</p>
-        </div>
+    <div class="container grid-2">
+      <div class="persona">
+        <img src="persona1.jpg" alt="Foto 1" class="avatar">
+        <h3>Hola, soy Lisa</h3>
+        <p>Me encanta simplificar procesos para que los equipos ahorren tiempo y dinero.</p>
+      </div>
+      <div class="persona">
+        <img src="persona2.jpg" alt="Foto 2" class="avatar">
+        <h3>Soy Tomás</h3>
+        <p>Me dedico a crear soluciones usando IA y automatización para hacer tu negocio más eficiente.</p>
       </div>
     </div>
   </section>
 
-  <!-- Casos de uso -->
-  <section class="casos">
-    <div class="container">
-      <h2>Casos de uso</h2>
-      <div class="grid-2">
-        <div>
-          <h3>Clínica dental</h3>
-          <p>Chatbot para citas y dudas frecuentes.</p>
-        </div>
-        <div>
-          <h3>Tienda online</h3>
-          <p>Respuestas automáticas sobre envíos y devoluciones.</p>
-        </div>
-        <div>
-          <h3>Academia</h3>
-          <p>Preguntas frecuentes sobre horarios y precios.</p>
-        </div>
-        <div>
-          <h3>Gestoría</h3>
-          <p>Automatización de consultas básicas.</p>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- Contacto -->
   <section id="contacto" class="contacto">
-    <div class="container">
-      <h2>Hablemos</h2>
-      <form>
-        <input type="text" placeholder="Nombre" required>
-        <input type="email" placeholder="Email" required>
-        <textarea placeholder="Mensaje" required></textarea>
-        <button type="submit" class="btn">Enviar</button>
-      </form>
+    <div class="container" style="text-align:center;">
+      <h2>Tu negocio, pero más rápido y sin complicaciones</h2>
+      <a href="mailto:hola@electricoo.com" class="btn">Habla con nosotros</a>
     </div>
   </section>
+
+  <footer>
+    <div class="container" style="text-align:center; padding:20px;">
+      <p>© 2025 Flow Eléctrico. Todos los derechos reservados.</p>
+    </div>
+  </footer>
 </body>
 </html>
-
