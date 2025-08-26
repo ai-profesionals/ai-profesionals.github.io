@@ -178,13 +178,17 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
   <!-- n8n Chatbot -->
-  <script type="module">
+
+<script type="module">
 	import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
 	createChat({
-		webhookUrl: 'https://www.n8n.electricoo.com/webhook/d6810493-7269-4f7d-82f6-1c0d2d869b79/chat'
+		webhookUrl: 'https://www.n8n.electricoo.com/webhook/d6810493-7269-4f7d-82f6-1c0d2d869b79/chat',
+		target: '#mi-chat',   // <--- Aquí apuntas a tu contenedor
+		mode: 'window'        // 'window' o 'fullscreen'
 	});
 </script>
+	
 </body>
 
 </html>
