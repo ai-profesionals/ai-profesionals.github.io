@@ -47,5 +47,12 @@ h1, h2, h3 {
   color: #fff !important;
 }
 
+/* Alineación de los mensajes de chat a la izquierda */
+#n8n-chat,
+#n8n-chat p,
+#n8n-chat div {
+    text-align: left !important;
+}
+
 
 
