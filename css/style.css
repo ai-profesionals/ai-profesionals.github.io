@@ -41,5 +41,11 @@ h1, h2, h3 {
   color: #fff;
 }
 
+/* Rosa corporativo para header */
+.bg-corporativo {
+  background-color: #FF0066 !important;
+  color: #fff !important;
+}
+
 
 
