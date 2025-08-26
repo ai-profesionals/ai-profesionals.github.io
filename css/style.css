@@ -42,6 +42,14 @@ h1, h2, h3 {
 }
 
 
+html,
+body,
+#n8n-chat {
+	width: 100%;
+	height: 100%;
+}
+
+
 :root {
 	/* Colores corporativos */
 	--chat--color-primary: #FF0066; /* Botones, toggle y elementos destacados */
