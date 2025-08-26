@@ -200,28 +200,29 @@
   <!-- n8n Chatbot -->
 
 <!-- Script del chat de n8n -->
+<!-- Script del chat de n8n (DEMO) -->
 <script type="module">
   import { createChat } from 'https://cdn.jsdelivr.net/npm/@n8n/chat/dist/chat.bundle.es.js';
 
   createChat({
-    webhookUrl: 'https://www.n8n.electricoo.com/webhook/d6810493-7269-4f7d-82f6-1c0d2d869b79/chat', // Reemplaza con tu webhook real
+    webhookUrl: 'https://www.n8n.electricoo.com/webhook/d6810493-7269-4f7d-82f6-1c0d2d869b79/chat',
     target: '#mi-chat',
-    mode: 'fullscreen', // O "window", pero en card encaja mejor "fullscreen"
+    mode: 'fullscreen', 
     showWelcomeScreen: false,
     initialMessages: [
-      "¡Hola! Soy tu asistente virtual 🚀",
-      "Pregúntame lo que quieras sobre nuestros servicios."
+      "👋 ¡Hola! Soy un asistente virtual de demostración.",
+      "Puedo mostrarte cómo funcionaría un chatbot para resolver dudas sobre servicios."
     ],
-	 i18n: {
-		en: {
-			title: 'Hi there! 👋',
-			subtitle: "Start a chat. We're here to help you 24/7.",
-			footer: '',
-			getStarted: 'New Conversation',
-			inputPlaceholder: 'Type your question..',
-		},
-	},
-	enableStreaming: true,
+    i18n: {
+      es: {
+        title: 'Asistente Virtual (Demo) 🤖',
+        subtitle: 'Esta es una demostración de un chatbot',
+        footer: 'Versión de prueba',
+        getStarted: 'Nueva conversación',
+        inputPlaceholder: 'Escribe tu mensaje de prueba aquí...',
+      },
+    },
+    enableStreaming: true,
   });
 </script>
 	
