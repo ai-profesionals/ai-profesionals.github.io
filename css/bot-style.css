@@ -26,6 +26,7 @@
     --chat--header--color: var(--chat--color-white);
     --chat--header--border-top: none;
     --chat--header--border-bottom: none;
+    --chat--header--border-radius: 0.75rem; /* Ajusta el valor según quieras más o menos redondeado */
     --chat--heading--font-size: 1.5em;
     --chat--subtitle--font-size: 1rem;
     --chat--subtitle--line-height: 1.5;
