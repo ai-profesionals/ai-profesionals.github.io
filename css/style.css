@@ -48,9 +48,10 @@ h1, h2, h3 {
 }
 
 /* Alineación de los mensajes de chat a la izquierda */
-#n8n-chat,
-#n8n-chat p,
-#n8n-chat div {
+/* Alineación de los mensajes de chat a la izquierda */
+#mi-chat,
+#mi-chat p,
+#mi-chat div {
     text-align: left !important;
 }
 
