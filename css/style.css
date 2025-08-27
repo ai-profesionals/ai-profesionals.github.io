@@ -56,6 +56,13 @@ h1, h2, h3 {
 
 }
 
+.chat-header {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 .benefits-box {
 
 }
