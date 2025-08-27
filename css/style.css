@@ -96,10 +96,10 @@ h1, h2, h3 {
   /* Ajuste para mobile: más espacio entre items */
   @media (max-width: 767.98px) {
     .navbar-nav .nav-item {
-      margin-bottom: 0.75rem;
+      margin-bottom: 0.5rem;
     }
   }
-</style>
+
 
 
 
