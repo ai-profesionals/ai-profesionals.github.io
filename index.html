@@ -23,27 +23,36 @@
 
 <body>
   <!-- Header -->
-<header class="bg-white border-bottom py-3">
-  <div class="container d-flex align-items-center justify-content-between">
+<header>
+  <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom py-3">
+    <div class="container">
 
-    <!-- Logo -->
-    <a href="/" title="Ir a la página de inicio" class="logo d-flex align-items-center">
-      <img src="images/logo-electricoo-automatizaciones-ia.avif" alt="Logotipo de Flow Eléctrico" class="logo-img">
-    </a>
+      <!-- Logo -->
+      <a class="navbar-brand d-flex align-items-center" href="/" title="Ir a la página de inicio">
+        <img src="images/logo-electricoo-automatizaciones-ia.avif" alt="Logotipo de Flow Eléctrico" class="logo-img" style="height: 50px;">
+      </a>
 
-    <!-- Botón hamburguesa -->
-    <button class="navbar-toggler d-md-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Menú de navegación">
-      <span class="navbar-toggler-icon"></span>
-    </button>
+      <!-- Botón hamburguesa para mobile -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Menú de navegación">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-    <!-- Menú -->
-    <nav class="collapse d-md-flex navbar-collapse justify-content-end gap-4" id="navbarMenu">
-      <a href="#servicios" class="text-dark text-decoration-none">Servicios</a>
-      <a href="#contacto" class="text-dark text-decoration-none">Contacto</a>
-    </nav>
+      <!-- Menú -->
+      <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+        <ul class="navbar-nav mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-semibold" href="#servicios">Servicios</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark fw-semibold" href="#contacto">Contacto</a>
+          </li>
+        </ul>
+      </div>
 
-  </div>
+    </div>
+  </nav>
 </header>
+
 
 
   <!-- Hero -->
