@@ -67,6 +67,39 @@ h1, h2, h3 {
 
 }
 
+ /* Hover sutil en links */
+  .navbar-nav .nav-link {
+    position: relative;
+    transition: color 0.3s;
+  }
+
+  .navbar-nav .nav-link:hover {
+    color: #d63384; /* un rosa similar al btn-pink */
+  }
+
+  /* Línea decorativa al pasar hover */
+  .navbar-nav .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #d63384;
+    transition: width 0.3s;
+  }
+
+  .navbar-nav .nav-link:hover::after {
+    width: 100%;
+  }
+
+  /* Ajuste para mobile: más espacio entre items */
+  @media (max-width: 767.98px) {
+    .navbar-nav .nav-item {
+      margin-bottom: 0.75rem;
+    }
+  }
+</style>
 
 
 
