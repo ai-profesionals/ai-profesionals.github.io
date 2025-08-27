@@ -1,17 +1,23 @@
 :root {
-	--chat--color-primary: #e74266;
-	--chat--color-primary-shade-50: #db4061;
-	--chat--color-primary-shade-100: #cf3c5c;
-	--chat--color-secondary: #FF0066;
-	--chat--color-secondary-shade-50: #1ca08a;
-	--chat--color-white: #ffffff;
-	--chat--color-light: #f2f4f8;
-	--chat--color-light-shade-50: #e6e9f1;
-	--chat--color-light-shade-100: #c2c5cc;
-	--chat--color-medium: #d2d4d9;
-	--chat--color-dark: #FF0066;
-	--chat--color-disabled: #777980;
-	--chat--color-typing: #404040;
+ /* Colores principales */
+  --chat--color-primary: #e74266;              /* Rosa principal (botones, CTA) */
+  --chat--color-primary-shade-50: #db4061;     /* Hover / variantes */
+  --chat--color-primary-shade-100: #cf3c5c;    /* Activo / pressed */
+
+  --chat--color-secondary: #ff0066;            /* Color de acento fuerte */
+  --chat--color-secondary-shade-50: #e6005c;   /* Hover acento */
+
+  /* Escala neutra */
+  --chat--color-white: #ffffff;                /* Fondo principal */
+  --chat--color-light: #f2f4f8;                /* Fondo secciones suaves */
+  --chat--color-light-shade-50: #e6e9f1;       /* Bordes claros */
+  --chat--color-light-shade-100: #c2c5cc;      /* Texto secundario */
+  --chat--color-medium: #a0a4ad;               /* Texto medio / descripciones */
+  --chat--color-dark: #1f1f1f;                 /* Texto principal / títulos */
+
+  /* Estados */
+  --chat--color-disabled: #777980;             /* Botones deshabilitados */
+  --chat--color-typing: #404040;               /* Indicadores de estado */
 
 	--chat--spacing: 1rem;
 	--chat--border-radius: 0.25rem;
