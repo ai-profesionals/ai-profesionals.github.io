@@ -98,6 +98,10 @@ h1, h2, h3 {
     .navbar-nav .nav-item {
       margin-bottom: 0.5rem;
     }
+
+    nav-link {
+    font-size: 20px; /* más grande en móvil */
+  }
   }
 
 
