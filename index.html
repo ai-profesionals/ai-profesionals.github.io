@@ -23,163 +23,197 @@
 
 <body>
   <!-- Header -->
-<header>
-  <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom py-3 shadow-sm">
-  <div class="container">
+  <header>
+    <nav class="navbar navbar-expand-md navbar-light bg-white border-bottom py-3 shadow-sm">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="/" title="Ir a la página de inicio">
+          <img src="images/logo-electricoo-automatizaciones-ia.avif" alt="Logotipo" class="logo-img" style="height: 50px;">
+        </a>
 
-    <!-- Logo -->
-    <a class="navbar-brand d-flex align-items-center" href="/" title="Ir a la página de inicio">
-      <img src="images/logo-electricoo-automatizaciones-ia.avif" alt="Logotipo" class="logo-img" style="height: 50px;">
-    </a>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu"
+          aria-controls="navbarMenu" aria-expanded="false" aria-label="Menú de navegación">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-    <!-- Botón hamburguesa para mobile -->
-    <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMenu" aria-controls="navbarMenu" aria-expanded="false" aria-label="Menú de navegación">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <!-- Menú -->
-    <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
-      <ul class="navbar-nav text-center py-3">
-        <li class="nav-item my-1 py-1">
-          <a class="nav-link text-dark px-3" href="#servicios">Servicios</a>
-        </li>
-        <li class="nav-item my-1 py-1">
-          <a class="nav-link text-dark px-3" href="#contacto">Contacto</a>
-        </li>
-      </ul>
-    </div>
-
-  </div>
-</nav>
-
-</header>
-
-
-
-  <!-- Hero -->
-<section class="hero text-center bg-white py-5">
-  <div class="container">
-    <h1 class="mb-4">Automatiza tu negocio sin complicaciones</h1>
-    <p class="lead mx-auto mb-4" style="max-width: 700px;">
-      Chatbots y flujos inteligentes que realizan tareas por ti. Tú sigue trabajando en lo importante, nosotros nos encargamos del resto.
-    </p>
-    <a href="#demo" class="btn btn-pink">Quiero ver una demo</a>
-    <p class="text-muted mt-3" style="font-size: 0.95rem;">
-      El chatbot que puedes ver más abajo es un ejemplo en vivo de nuestros proyectos.
-    </p>
-  </div>
-</section>
-
-<!-- Chatbot Demo primero -->
-<section class="py-5 bg-light">
-  <div class="container">
-    <div class="row gx-5 align-items-center justify-content-center" id="demo">
-      
-      <!-- Demo Chat -->
-      <div class="col-md-6 text-center">
-        <div class="card shadow-lg">
-          <div class="card-body" style="height: 650px;">
-            <div id="mi-chat" style="height:100%;"></div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Pasos explicativos + Contacto -->
-      <div class="col-md-5 py-5 text-center">
-        <h2 class="mb-4 text-center">Prueba nuestro chatbot</h2>
-
-        <ol class="list-unstyled text-start mx-auto" style="max-width: 500px;">
-          <li class="d-flex align-items-start mb-3">
-            <div class="step-number me-3 fw-bold text-dark">1.</div>
-            <div>Escribe tu pregunta en el chat de demostración. Nuestro asistente entiende tu lenguaje natural como si hablaras con una persona real.</div>
-          </li>
-          <li class="d-flex align-items-start mb-3">
-            <div class="step-number me-3 fw-bold text-dark">2.</div>
-            <div>El asistente virtual busca la mejor respuesta usando nuestra base de conocimiento personalizada sobre tu negocio, horarios, precios y servicios.</div>
-          </li>
-          <li class="d-flex align-items-start mb-3">
-            <div class="step-number me-3 fw-bold text-dark">3.</div>
-            <div>Recibe la respuesta al instante, clara y amigable. Así puedes ver cómo un chatbot bien configurado mejora la experiencia de tus clientes y ofrece información confiable.</div>
-          </li>
-        </ol>
-
-        <p class="mt-3 text-muted" style="font-size:0.95rem; max-width:500px; margin-left:auto; margin-right:auto; text-align:left;">
-          Este es un ejemplo de chatbot de demostración. Imagina tener uno así, disponible 24/7 para tus clientes.
-        </p>
-
-        <hr class="my-4">
-
-        <h3 class="mb-3 text-center" id="contacto">Contacto</h3>
-        <p class="mb-4">Tu negocio, pero más rápido y sin complicaciones.</p>
-        <a href="mailto:hola@electricoo.com" class="btn btn-pink mt-2">Habla con nosotros</a>
-      </div>
-      
-    </div>
-  </div>
-</section>
-
-<!-- Cómo funciona después -->
-<section class="py-5 bg-white">
-  <div class="container">
-    <div class="row g-5 align-items-center">
-
-      <!-- Columna izquierda: pasos y beneficios -->
-      <div class="col-md-6 text-center">
-        <h2 class="mb-4 fw-bold text-center">¿Cómo funciona?</h2>
-
-        <ol class="list-unstyled mb-4 text-start mx-auto" style="max-width: 500px;">
-          <li class="d-flex mb-3">
-            <span class="step-number me-3 fw-bold text-dark">1.</span>
-            <p class="mb-0">El cliente hace una pregunta sobre el producto o servicio de manera natural.</p>
-          </li>
-          <li class="d-flex mb-3">
-            <span class="step-number me-3 fw-bold text-dark">2.</span>
-            <p class="mb-0">El agente IA busca la mejor respuesta dentro <strong>de su base de conocimientos</strong>.</p>
-          </li>
-          <li class="d-flex mb-3">
-            <span class="step-number me-3 fw-bold text-dark">3.</span>
-            <p class="mb-0">El chatbot responde al instante de forma clara y precisa.</p>
-          </li>
-        </ol>
-
-        <!-- Beneficios internos centrados -->
-        <div class="benefits-box p-4 rounded shadow-sm bg-light text-center mb-4 mx-auto" style="max-width: 500px;">
-          <h3 class="mb-3">Beneficios de automatizar</h3>
-          <ul class="list-unstyled mb-0 d-flex flex-column align-items-center justify-content-center">
-            <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Horario: disponible 24/7</li>
-            <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Precisión: respuestas fiables</li>
-            <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Escalable: crece con tu negocio</li>
-            <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Ahorro: libera a tu equipo</li>
-            <li class="d-flex align-items-center"><i class="bi bi-check-circle-fill text-success me-2"></i>Rapidez: respuestas inmediatas</li>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarMenu">
+          <ul class="navbar-nav text-center py-3">
+            <li class="nav-item my-1 py-1">
+              <a class="nav-link text-dark px-3" href="#servicios">Servicios</a>
+            </li>
+            <li class="nav-item my-1 py-1">
+              <a class="nav-link text-dark px-3" href="#contacto">Contacto</a>
+            </li>
           </ul>
         </div>
+      </div>
+    </nav>
+  </header>
 
-        <!-- CTA -->
-        <div class="text-center mt-3">
-          <a href="https://rizos.pro/" target="_blank" class="btn btn-lg btn-pink px-4 py-3 shadow-sm">
-            🚀 Probar un chatbot en vivo
-          </a>
-          <p class="mt-2 text-muted small">Ejemplo real en la web de nuestro cliente <strong>Rizos.pro</strong></p>
+  <!-- Hero -->
+  <section class="hero text-center bg-white py-5">
+    <div class="container">
+      <h1 class="mb-4">Automatiza tu negocio sin complicaciones</h1>
+      <p class="lead mx-auto mb-4" style="max-width: 700px;">
+        Chatbots y flujos inteligentes que realizan tareas por ti. Tú sigue trabajando en lo importante, nosotros nos encargamos del resto.
+      </p>
+      <a href="#demo" class="btn btn-pink">Quiero ver una demo</a>
+      <p class="text-muted mt-3" style="font-size: 0.95rem;">
+        El chatbot que puedes ver más abajo es un ejemplo en vivo de nuestros proyectos.
+      </p>
+    </div>
+  </section>
+
+  <!-- Chatbot Demo primero -->
+  <section class="py-5 bg-light">
+    <div class="container">
+      <div class="row gx-5 align-items-center justify-content-center" id="demo">
+        <!-- Demo Chat -->
+        <div class="col-md-6 text-center">
+          <div class="card shadow-lg">
+            <div class="card-body" style="height: 650px;">
+              <div id="mi-chat" style="height:100%;"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Pasos explicativos + Contacto -->
+        <div class="col-md-5 py-5 text-center">
+          <h2 class="mb-4 text-center">Prueba nuestro chatbot</h2>
+
+          <ol class="list-unstyled text-start mx-auto" style="max-width: 500px;">
+            <li class="d-flex align-items-start mb-3">
+              <div class="step-number me-3 fw-bold text-dark">1.</div>
+              <div>Escribe tu pregunta en el chat de demostración. Nuestro asistente entiende tu lenguaje natural como si hablaras con una persona real.</div>
+            </li>
+            <li class="d-flex align-items-start mb-3">
+              <div class="step-number me-3 fw-bold text-dark">2.</div>
+              <div>El asistente virtual busca la mejor respuesta usando nuestra base de conocimiento personalizada sobre tu negocio, horarios, precios y servicios.</div>
+            </li>
+            <li class="d-flex align-items-start mb-3">
+              <div class="step-number me-3 fw-bold text-dark">3.</div>
+              <div>Recibe la respuesta al instante, clara y amigable. Así puedes ver cómo un chatbot bien configurado mejora la experiencia de tus clientes y ofrece información confiable.</div>
+            </li>
+          </ol>
+
+          <p class="mt-3 text-muted" style="font-size:0.95rem; max-width:500px; margin-left:auto; margin-right:auto; text-align:left;">
+            Este es un ejemplo de chatbot de demostración. Imagina tener uno así, disponible 24/7 para tus clientes.
+          </p>
+
+          <hr class="my-4">
+
+          <h3 class="mb-3 text-center" id="contacto">Contacto</h3>
+          <p class="mb-4">Tu negocio, pero más rápido y sin complicaciones.</p>
+          <a href="mailto:hola@electricoo.com" class="btn btn-pink mt-2">Habla con nosotros</a>
         </div>
       </div>
-
-      <!-- Columna derecha: imagen -->
-      <div class="col-md-6 d-flex flex-column align-items-center">
-        <figure class="figure w-100">
-          <img src="images/chatbot-agente-ia-rag-n8n-pinecone.avif" 
-               alt="Chatbot agente IA integrando n8n y Pinecone" 
-               class="img-fluid rounded shadow-lg">
-          <figcaption class="figure-caption text-muted mt-2 text-center">
-            Flujo de un chatbot básico en n8n
-          </figcaption>
-        </figure>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
+  <!-- Cómo funciona después -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <div class="row g-5 align-items-center">
 
+        <!-- Columna izquierda: pasos y beneficios -->
+        <div class="col-md-6 text-center">
+          <h2 class="mb-4 fw-bold text-center">¿Cómo funciona?</h2>
+
+          <ol class="list-unstyled mb-4 text-start mx-auto" style="max-width: 500px;">
+            <li class="d-flex mb-3">
+              <span class="step-number me-3 fw-bold text-dark">1.</span>
+              <p class="mb-0">El cliente hace una pregunta sobre el producto o servicio de manera natural.</p>
+            </li>
+            <li class="d-flex mb-3">
+              <span class="step-number me-3 fw-bold text-dark">2.</span>
+              <p class="mb-0">El agente IA busca la mejor respuesta dentro <strong>de su base de conocimientos</strong>.</p>
+            </li>
+            <li class="d-flex mb-3">
+              <span class="step-number me-3 fw-bold text-dark">3.</span>
+              <p class="mb-0">El chatbot responde al instante de forma clara y precisa.</p>
+            </li>
+          </ol>
+
+          <!-- Beneficios internos centrados -->
+          <div class="benefits-box p-4 rounded shadow-sm bg-light text-center mb-4 mx-auto" style="max-width: 500px;">
+            <h3 class="mb-3">Beneficios de automatizar</h3>
+            <ul class="list-unstyled mb-0 d-flex flex-column align-items-center justify-content-center">
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Horario: disponible 24/7</li>
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Precisión: respuestas fiables</li>
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Escalable: crece con tu negocio</li>
+              <li class="d-flex align-items-center mb-2"><i class="bi bi-check-circle-fill text-success me-2"></i>Ahorro: libera a tu equipo</li>
+              <li class="d-flex align-items-center"><i class="bi bi-check-circle-fill text-success me-2"></i>Rapidez: respuestas inmediatas</li>
+            </ul>
+          </div>
+
+          <!-- CTA -->
+          <div class="text-center mt-3">
+            <a href="https://rizos.pro/" target="_blank" class="btn btn-lg btn-pink px-4 py-3 shadow-sm">
+              🚀 Probar un chatbot en vivo
+            </a>
+            <p class="mt-2 text-muted small">Ejemplo real en la web de nuestro cliente <strong>Rizos.pro</strong></p>
+          </div>
+        </div>
+
+        <!-- Columna derecha: imagen -->
+        <div class="col-md-6 d-flex flex-column align-items-center">
+          <figure class="figure w-100">
+            <img src="images/chatbot-agente-ia-rag-n8n-pinecone.avif" 
+                 alt="Chatbot agente IA integrando n8n y Pinecone" 
+                 class="img-fluid rounded shadow-lg">
+            <figcaption class="figure-caption text-muted mt-2 text-center">
+              Flujo de un chatbot básico en n8n
+            </figcaption>
+          </figure>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Servicios -->
+  <section id="servicios" class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5">Nuestros servicios</h2>
+      <div class="row g-4 text-center">
+        <div class="col-md-4">
+          <div class="emoji mb-2" style="font-size:2rem;">🤖</div>
+          <h3 class="fs-4">Chatbots FAQ</h3>
+          <p>Responden automáticamente las dudas más comunes de tus clientes.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="emoji mb-2" style="font-size:2rem;">🧠</div>
+          <h3 class="fs-4">Agentes con IA</h3>
+          <p>Mantienen conversaciones naturales y resuelven tareas complejas.</p>
+        </div>
+        <div class="col-md-4">
+          <div class="emoji mb-2" style="font-size:2rem;">⚙️</div>
+          <h3 class="fs-4">Automatizaciones</h3>
+          <p>Conectamos tus herramientas para que trabajen solas (hojas de cálculo, redes sociales, etc.).</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo -->
+  <section class="py-5 bg-white">
+    <div class="container">
+      <h2 class="text-center mb-5">Conoce al equipo</h2>
+      <div class="row g-5">
+        <div class="col-md-6 text-center">
+          <img src="images/tecnico-automatizaciones-n8n-chatbot-ia.avif" alt="Foto de Pedro" class="avatar mb-3 rounded-circle">
+          <h3>¡Hola! Soy Pedro</h3>
+          <p>Con herramientas como <strong>n8n</strong> y <strong>Make</strong>, creo automatizaciones que permiten ahorrar tiempo y centrarse en lo que realmente suma.</p>
+          <a href="https://www.linkedin.com/in/pedro-garrido-207888355/" target="_blank" rel="noopener noreferrer" class="btn btn-pink">LinkedIn</a>
+        </div>
+        <div class="col-md-6 text-center">
+          <img src="images/tecnico-automatizaciones-n8n-chatbot-ia-mario.avif" alt="Foto de Mario" class="avatar mb-3 rounded-circle">
+          <h3>Soy Mario</h3>
+          <p>Uso <strong>IA y flujos de automatización</strong> para crear soluciones que optimizan tu negocio y eliminan las tareas manuales.</p>
+          <a href="https://www.linkedin.com/in/mario-mansilla/" target="_blank" rel="noopener noreferrer" class="btn btn-pink">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <!-- Footer -->
   <footer class="bg-light text-center py-3">
@@ -217,5 +251,5 @@
     });
   </script>
 </body>
-
 </html>
+
