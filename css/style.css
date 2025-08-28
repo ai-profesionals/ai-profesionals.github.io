@@ -11,8 +11,7 @@ h1, h2, h3 {
   color: #111;
 }
 
-.chat-powered-by {
-
+.chat-powered-by { /* n8n powered */
   display: none;
 }
 
