@@ -93,6 +93,11 @@ h1, h2, h3 {
     width: 100%;
   }
 
+b, strong {
+    font-weight: 500;
+    color: #111;
+}
+
   /* Ajuste para mobile: más espacio entre items */
   @media (max-width: 767.98px) {
     .navbar-nav .nav-item {
