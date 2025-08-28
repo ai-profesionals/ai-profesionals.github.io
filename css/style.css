@@ -102,6 +102,11 @@ h1, h2, h3 {
     nav-link {
     font-size: 20px; /* más grande en móvil */
   }
+
+  #chatbot {
+    padding-bottom: 2rem !important;
+  }
+    
   }
 
 
