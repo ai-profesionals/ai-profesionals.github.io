@@ -14,7 +14,7 @@ createChat({
   i18n: {
     es: {
       title: 'Chatbot Demo 💬',
-      subtitle: '¿Cómo puedo ayudarte?',
+      subtitle: 'Presupuestos orientativos por email',
       footer: '',
       getStarted: 'Nueva conversación',
       inputPlaceholder: 'Escribe aquí...',
