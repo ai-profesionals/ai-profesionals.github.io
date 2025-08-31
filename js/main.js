@@ -8,8 +8,8 @@ createChat({
   showWelcomeScreen: false,
   defaultLanguage: 'es',
   initialMessages: [
-    "👋 ¡Hola! Soy un asistente virtual de demostración.",
-    "Puedo mostrarte cómo funcionaría un chatbot para resolver dudas sobre servicios."
+    "📣 Soy un asistente virtual de demostración.",
+    "Puedo mostrarte cómo funcionaría un chatbot para hacer presupuestos."
   ],
   i18n: {
     es: {
