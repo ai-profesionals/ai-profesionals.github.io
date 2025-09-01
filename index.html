@@ -322,12 +322,13 @@
 
 <script>
   const chatContainer = document.getElementById('chat-container');
+  const sendBtn = document.querySelector('.chat-input-send-button');
 
-  const observer = new MutationObserver(() => {
-    chatContainer.scrollTop = 0; // siempre mantiene la parte superior visible
-  });
-
-  observer.observe(document.getElementById('mi-chat'), { childList: true });
+  if (sendBtn) {
+    sendBtn.addEventListener('click', () => {
+      chatContainer.scrollTop = 0; // vuelve al inicio
+    });
+  }
 </script>
 
 
