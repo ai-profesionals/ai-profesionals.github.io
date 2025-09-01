@@ -321,14 +321,15 @@
   <script type="module" src="js/main.js"></script>
 
 <script>
-const chatContainer = document.getElementById('mi-chat');
+  const chatContainer = document.getElementById('chat-container');
 
-const observer = new MutationObserver(() => {
-  chatContainer.scrollTop = chatContainer.scrollHeight;
-});
+  const observer = new MutationObserver(() => {
+    chatContainer.scrollTop = 0; // siempre mantiene la parte superior visible
+  });
 
-observer.observe(chatContainer, { childList: true, subtree: true });
+  observer.observe(document.getElementById('mi-chat'), { childList: true });
 </script>
+
 
 
 </body>
