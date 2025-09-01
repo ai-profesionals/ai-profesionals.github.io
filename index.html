@@ -320,10 +320,16 @@
   <!-- Incluir el script como módulo (necesario para el chatbot) -->
   <script type="module" src="js/main.js"></script>
 
-  <script>function scrollToBottom() {
-  const chatContainer = document.getElementById('mi-chat');
+<script>
+const chatContainer = document.getElementById('mi-chat');
+
+const observer = new MutationObserver(() => {
   chatContainer.scrollTop = chatContainer.scrollHeight;
-}</script>
+});
+
+observer.observe(chatContainer, { childList: true, subtree: true });
+</script>
+
 
 </body>
 
