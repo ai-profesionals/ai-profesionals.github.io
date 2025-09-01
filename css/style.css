@@ -15,15 +15,6 @@ h1, h2, h3 {
   display: none;
 }
 
-#chat-container {
-  position: fixed;
-  bottom: 20px;
-  right: 20px;
-  width: 350px;
-  height: 650px;
-  z-index: 9999;
-}
-
 
 /* Logo */
 .logo-img {
