@@ -321,12 +321,19 @@
   <script type="module" src="js/main.js"></script>
 
 <script>
+  // Obtenemos el contenedor del chat (donde aparecen los mensajes)
   const chatContainer = document.getElementById('chat-container');
+
+  // Obtenemos el botón de enviar mensaje (tiene la clase chat-input-send-button)
   const sendBtn = document.querySelector('.chat-input-send-button');
 
   if (sendBtn) {
+    // Cada vez que el usuario pulse el botón de enviar,
+    // forzamos el scroll del contenedor a la parte superior.
+    // De esta forma, aunque se añadan mensajes nuevos,
+    // siempre se mostrará la parte de arriba del chat.
     sendBtn.addEventListener('click', () => {
-      chatContainer.scrollTop = 0; // vuelve al inicio
+      chatContainer.scrollTop = 0;
     });
   }
 </script>
