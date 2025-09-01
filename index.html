@@ -319,22 +319,19 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
   <!-- Incluir el script como módulo (necesario para el chatbot) -->
   <script type="module" src="js/main.js"></script>
+ <script>
+// Mantener la ventana visible cuando el chat recibe focus
+document.addEventListener("DOMContentLoaded", () => {
+  const chatInput = document.querySelector("#mi-chat input"); // selector del input dentro del widget
 
-<script>
-  document.addEventListener("DOMContentLoaded", () => {
-    const chatContainer = document.getElementById("demo");
-    const sendBtn = document.querySelector(".chat-input-send-button");
-
-    if (chatContainer && sendBtn) {
-      sendBtn.addEventListener("click", () => {
-        chatContainer.scrollTop = 0; // Ir arriba
-        // Si quieres con animación suave:
-        // chatContainer.scrollTo({ top: 0, behavior: "smooth" });
-      });
-    }
-  });
+  if (chatInput) {
+    chatInput.addEventListener("focus", () => {
+      // Evitar que la página haga scroll automático
+      window.scrollTo({ top: window.scrollY, behavior: "auto" });
+    });
+  }
+});
 </script>
-
 
 
 
