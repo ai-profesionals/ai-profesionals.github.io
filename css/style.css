@@ -122,6 +122,18 @@ b, strong {
   --wa-shadow: 0 10px 18px rgba(0,0,0,.18), 0 6px 6px rgba(0,0,0,.12);
 }
 
+/* Por defecto oculto */
+.wa-fab,
+.wa-bubble {
+  display: none;
+}
+
+/* Solo visible en móvil */
+@media (max-width: 767.98px) {
+  .wa-fab { display: inline-flex; }
+  .wa-bubble { display: block; }
+}
+
 .wa-fab{
   position: fixed;
   right: var(--wa-gap);
@@ -130,7 +142,6 @@ b, strong {
   height: var(--wa-size);
   border-radius: 999px;
   background: var(--wa-bg);
-  display: inline-flex;
   align-items: center;
   justify-content: center;
   box-shadow: var(--wa-shadow);
@@ -161,7 +172,6 @@ b, strong {
 .wa-bubble.hide{ display: none; }
 
 @media (prefers-color-scheme: light){ .wa-bubble{ background:#111827; color:#fff; } }
-@media (max-width: 480px){ .wa-bubble{ display:none; } } /* oculta la burbuja en móviles */
 
 
 
