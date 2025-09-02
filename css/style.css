@@ -115,8 +115,8 @@ b, strong {
 /* ========================= */
 /* Botón flotante de WhatsApp */
 :root{
-  --wa-size: 80px;          /* Tamaño del botón */
-  --wa-gap: 20px;           /* Separación del borde */
+  --wa-size: 65px;          /* Tamaño del botón */
+  --wa-gap: 15px;           /* Separación del borde */
   --wa-bg: #25D366;         /* Color WhatsApp */
   --wa-bg-hover: #1EBE5D;   /* Hover */
   --wa-shadow: 0 10px 18px rgba(0,0,0,.18), 0 6px 6px rgba(0,0,0,.12);
