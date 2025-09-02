@@ -18,6 +18,9 @@ createChat({
       footer: '',
       getStarted: 'Nueva conversación',
       inputPlaceholder: 'Escribe aquí...',
+      poweredBy: 'Desarrollado con n8n',
+      footer: 'AI Professionals',
+      
     },
   },
 });
